@@ -22,9 +22,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/phone_no_title"
         android:hint="@string/hint_phone_no"
-        android:inputType="phone"
-        <requestFocus />
-        />
+        android:inputType="phone" />
+    <requestFocus />
 
     <Button
         android:id="@+id/ok"
