@@ -15,7 +15,7 @@ import android.widget.Button;
  */
 public class MpesaActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Button btnSendMoney;
+    private Button btnSendMoney, btnBuyAirtime;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,8 @@ public class MpesaActivity extends AppCompatActivity implements View.OnClickList
 
         btnSendMoney = (Button) findViewById(R.id.send_money);
         btnSendMoney.setOnClickListener(this);
+        btnBuyAirtime = (Button) findViewById(R.id.buy_airtime);
+        btnBuyAirtime.setOnClickListener(this);
 
     }
 
@@ -33,6 +35,9 @@ public class MpesaActivity extends AppCompatActivity implements View.OnClickList
         switch (v.getId()) {
             case R.id.send_money:
                 startActivity(new Intent(getApplicationContext(), SendMoneyActivity.class));
+                break;
+            case R.id.buy_airtime:
+                startActivity(new Intent(getApplicationContext(), BuyAirtimeActivity.class));
                 break;
             default:
                 break;
