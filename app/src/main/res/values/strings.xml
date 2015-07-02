@@ -15,6 +15,8 @@
     <string name="my_acc">My account</string>
     <string name="search_sim_contacts">Search SIM Contacts</string>
     <string name="enter_phone_no">Enter phone no.</string>
+    <string name="my_phone">My phone</string>
+    <string name="other_phone">Other phone</string>
     <string name="btn_text_ok">OK</string>
 
     <!--activity names-->
@@ -29,5 +31,6 @@
     <string name="title_phone_no">Enter phone no.</string>
     <string name="title_amount">Enter amount</string>
     <string name="title_pin">Enter M-PESA PIN</string>
+    <string name="title_activity_buy_airtime">buy_airtime</string>
 
 </resources>
