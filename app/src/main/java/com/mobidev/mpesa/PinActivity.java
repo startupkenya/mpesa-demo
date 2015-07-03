@@ -36,6 +36,8 @@ public class PinActivity extends AppCompatActivity {
         extras = getIntent().getExtras();
         if (extras != null) {
             phoneNo = extras.getString(ARG_PHONE_NO);
+
+            if(phoneNo ==null){phoneNo="My Number";}
             amount = extras.getString(ARG_AMOUNT);
         }
 
